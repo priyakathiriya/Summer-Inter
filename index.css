@@ -1,0 +1,230 @@
+.header_home{
+    display: flex;
+    position: top;
+
+}
+.list{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 40px;
+    padding-left: 70px;
+    list-style-type: none;
+}
+.list a{
+    padding-left: 100px;
+    margin-left: 30px;
+    font-size: x-large;
+    color: rgb(223, 238, 13);
+    text-decoration: none;
+}
+.header_home_1{
+    width: 1520px;
+    height: 750px;
+    background: url('https://images.unsplash.com/photo-1535320404287-416e2c6d2b41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=60');
+    background-repeat: no-repeat;
+}
+.work{
+    text-align: center;
+    margin: 100px;
+    color: rgb(91, 12, 40);
+}
+.btn-click{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+.part-1{
+    text-align: center;
+}
+.icon{
+    color: yellowgreen;
+}
+hr{
+    width: 150px;
+    background: orange;
+    border: 2px solid orange;
+    margin-left: 670px;
+}
+.item_icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.icon_1{
+    padding: 30px;
+    margin: 30px;
+}
+.icon_2{
+    margin: auto;
+    padding: 140px;
+    background: border-box;
+    height: 80px;
+}
+.process-icon{
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    position: relative;
+    transition: all 1s;
+}
+.process-icon:hover{
+    background: rgb(55, 0, 255);
+    width: 100px;
+    height: 100px;
+}
+.process-icon:hover .no{
+    width: 50px;
+    height: 50px;
+}
+.no{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    font-size: xx-large;
+    background: rgb(232, 232, 6);
+    padding: 10px;
+    font-style: normal;
+}
+.footer{
+    display: flex;
+    position: relative;
+    
+}
+.list_2{
+    list-style-type: none;
+    margin: auto;
+    color: black;
+    font-size: large;
+}
+.process-icon_2{
+    border-radius: 50%;
+    background: rgb(51, 51, 51);
+    color: rgb(255,255,255);
+    padding: 15px;
+    transition: all 1s;
+}
+.process-icon_2:hover{
+    background: rgb(209, 15, 15);
+}
+.footer_2{
+    background: rgb(122, 122, 122);
+    height: 700px;
+}
+.bottom_line{
+    border: 1px solid blue;
+    width: 100px;
+    background: blue;
+}
+.about_part_1{
+    background: rgb(235, 235, 235);
+    text-align: center;
+    align-items: center;
+}
+.bottom_line_2{
+    border: 2px solid blue;
+    background: blue;
+    margin-left: 20px;
+}
+.technical_skill{
+    background: #333;
+    color: white;
+    height: 550px;
+}
+.skill{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.people{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    list-style-type: none;
+    padding: auto;
+}
+.quote{
+    padding: 10px;
+    text-align: center;
+}
+.para{
+    border: 1px solid ;
+    border-radius: 5px;
+    text-align: left;
+}
+.img{
+    border-radius: 50%;
+    height: 60px;
+    align-items: left;
+}
+#level1{
+    background: rgb(179, 176, 176);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 1200px;
+}
+#progresshtml{
+    height: 100%;
+    width: 0;
+    background-color: blue;
+    transition: 5s ease 0.5s;
+}
+#level2{
+    background: rgb(179, 176, 176);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 1200px;
+}
+#progresscss{
+    height: 100%;
+    width: 0;
+    background: blue;
+    transition: 3s ease 0.5s;
+}
+#level3{
+    background: rgb(179, 176, 176);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 1200px;
+}
+#progressjs{
+    height: 100%;
+    width: 0;
+    background: blue;
+    transition: 3s ease 0.5s;
+}
+#level4{
+    background: rgb(179, 176, 176);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 1200px;
+}
+#progressreact{
+    height: 100%;
+    width: 0;
+    background: blue;
+    transition: 3s ease 0.5s;
+}
+#level5{
+    background: rgb(179, 176, 176);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 1200px;
+}
+#progresspython{
+    height: 100%;
+    width: 0;
+    background: blue;
+    transition: 3s ease 0.5s;
+}
+.img_2{
+    display: grid;
+    height: 200px;
+}
