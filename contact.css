@@ -1,0 +1,16 @@
+.address{
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+}
+.addr{
+    text-align: left;
+    margin: 50px;
+    color: white;
+    padding: 70px;
+}
+iframe{
+    width: 350px;
+    height: 200px;
+    margin: 100px;
+}

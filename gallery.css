@@ -1,0 +1,64 @@
+.blog1{
+    background-color: gray;
+    height: 400px;
+    color:white;
+    
+}
+.post{
+    display: flex;
+    margin:20px;
+    padding:10px;
+}
+.blog1 img{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
+.name{
+    display: flex;
+    margin-left: 40px;
+}
+.line{
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-right:5px ;
+    
+}
+#month{
+    margin-right: 5px;
+    
+}
+#date{
+    margin-right: 5px;
+}
+#year{
+    margin-right: 5px;
+}
+.content{
+    margin-top: 20px;
+    width:1300px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.show-1{
+    display: inline;
+}
+.hide-1 {
+    display: none;
+}
+.show-2{
+    display: inline;
+}
+.hide-2{
+    display: none;
+}
+button{
+    width:100px;
+    height:40px;
+    background: white;
+    color: black;
+
+}
