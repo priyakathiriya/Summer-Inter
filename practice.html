@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            position: relative;
+            margin: 4rem;
+        }
+        input{
+            border: 0;
+            border-bottom: 1px solid black;
+            
+        }
+        label{
+            position: absolute; 
+            top: 5px;
+            left: 0;
+            
+        }
+        span{
+            min-width: 5px;
+            display: inline-block;
+        }
+        input:focus{
+            outline: 0;
+        }
+        input:focus + label span{
+            color: brown;
+            transform: translatey(-20px);
+        }
+        label span{
+            transition: 0.9s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <input type="text">
+        <label >Name</label>
+    </div>
+    <div class="form">
+        <input type="text">
+        <label >EMAIL</label>
+    </div>
+    <div class="form">
+        <input type="text">
+        <label >SUBJECT</label>
+    </div>
+    <div class="form">
+        <input type="text">
+        <label >PHONE NO</label>
+    </div>
+    <script>
+        const label= document.querySelectorAll("label");
+        console.log(label);
+        label.forEach(label => {
+            label.innerHTML = label.innerText.split('').map(function(letter,idx){
+                return `<span style= 'transition-delay: ${idx * 80}ms'>${letter}</span>`
+            } ).join('')})
+    </script>
+</body>
+</html>

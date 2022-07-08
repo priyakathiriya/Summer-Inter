@@ -1,0 +1,38 @@
+.project{
+    background: url('https://images.unsplash.com/photo-1652133843036-0e92611a91fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2MXxhZXU2ckwtajZld3x8ZW58MHx8fHw%3D');
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 3rem;
+    padding: 100px;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.projects{
+    background: rgb(52, 48, 48);
+    color: white;
+    /* height: 500px; */
+    line-height: 3rem;
+    font-size: x-large;
+    padding-top: 10px;
+}
+i{
+    margin-left: 30px;
+}
+.proj_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #575757;
+    padding-left: 10px;
+}
+.pre{
+    overflow-y: scroll;
+    height: 250px;
+    font-size: large;
+    margin-left: -170px;
+}
+h4{
+    color: orange;
+}

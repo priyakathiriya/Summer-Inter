@@ -1,18 +1,23 @@
 .items2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: inset;
 }
 .item3{
     position: relative;
-    background: white;
+    background: yellow;
     overflow: hidden;
     box-shadow: inset;
 }
 .item_image{
     background-size: cover;
-    height: 300px;
+    height: 350px;
     width: 500px;
     display: block;
+    transform: translateZ(0);
+    transition: transform 300ms;
 }
 .item_image img{ 
    object-fit: cover;
@@ -36,7 +41,7 @@
 }
 .item3:hover .item_text{
     opacity: 0.6;
-    background: yellow;
+    transform: translateY(0);
 }
 .item3:hover .item_image{
     opacity: 0.6;
@@ -55,6 +60,9 @@
     height: 100%;
     transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
     transition: transform 3s;
+}
+.item3:hover::after{
+    transform: scale(2) translateX(5%) translateY(5%) rotate(-28deg);
 }
 
 @media only screen and (max-width: 1000px){
