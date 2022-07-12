@@ -11,11 +11,14 @@
     list-style-type: none;
 }
 .list a{
-    padding-left: 70px;
+    padding-left: 60px;
     margin-left: 30px;
     font-size: x-large;
     color: rgb(223, 238, 13);
     text-decoration: none;
+}
+.list a:hover{
+    color: white;
 }
 .header_home_1{
     width: 1520px;
