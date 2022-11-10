@@ -19,7 +19,6 @@ iframe{
     grid-template-columns: repeat(2 ,1fr);
     justify-content: space-around;
     margin-left: 200px;
-
 }
 .name{
     position: relative;
@@ -27,9 +26,7 @@ iframe{
 }
 input{
     border: 0;
-    /* width: 300px; */
-    border-bottom: 1px solid black;
-    
+    border-bottom: 1px solid black;   
 }
 .box{
     text-align: center;

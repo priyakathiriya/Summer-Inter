@@ -1,8 +1,7 @@
 .blog1{
     background-color: gray;
     height: 400px;
-    color:white;
-    
+    color:white;    
 }
 .post{
     display: flex;
@@ -14,8 +13,6 @@
     height:60px;
     border-radius: 50%;
     margin-right: 10px;
-
-
 }
 .name{
     display: flex;
@@ -24,12 +21,10 @@
 .line{
     border: 1px solid white;
     margin-left: 5px;
-    margin-right:5px ;
-    
+    margin-right:5px ;   
 }
 #month{
-    margin-right: 5px;
-    
+    margin-right: 5px;    
 }
 #date{
     margin-right: 5px;
@@ -60,5 +55,4 @@ button{
     height:40px;
     background: white;
     color: black;
-
 }

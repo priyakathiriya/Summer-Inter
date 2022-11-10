@@ -3,3 +3,4 @@ function display() {
     document.getElementById("show").innerHTML = "HTML, CSS, REACT JS, PYTHON";
 }
 
+
